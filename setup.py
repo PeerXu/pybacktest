@@ -18,7 +18,7 @@ setup(name='pybacktest',
       url='https://github.com/ematvey/pybacktest',
       packages=['pybacktest'],
       install_requires=['numpy>=1.11',
-                        'pandas>=0.19',
+                        'pandas>=0.24',
                         'pyyaml',
                         'cached_property'],
       **extra_args)
